@@ -11,6 +11,7 @@
 <body class="container mt-4">
     
     <div id="app">
+        <img class="img-fluid" v-bind:src="image" v-bind:alt="name">
         <h2>{{ name }}</h2>
         <p>{{ description }}</p>
         <div class="h3">₹ {{ price }}</div>
